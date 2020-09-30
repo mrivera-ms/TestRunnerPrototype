@@ -4,6 +4,6 @@
     {
         DirectLine,
         Emulator,
-        TeamsClient
+        Teams
     }
 }

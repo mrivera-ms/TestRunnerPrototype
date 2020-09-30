@@ -24,7 +24,7 @@
             }
         }
 
-        public string ConvertToTestScript(string TranscriptSource)
+        public string Convert(string TranscriptSource)
         {
             throw new System.NotImplementedException();
         }

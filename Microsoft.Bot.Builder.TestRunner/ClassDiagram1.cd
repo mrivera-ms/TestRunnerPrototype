@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Microsoft.Bot.Builder.TestRunner.TestClients.DirectLineClient" Collapsed="true">
-    <Position X="5" Y="6" Width="1.5" />
+    <Position X="2.75" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TestClients\DirectLineClient.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Microsoft.Bot.Builder.TestRunner.TestClients.EmulatorClient" Collapsed="true">
-    <Position X="7" Y="6" Width="1.5" />
+    <Position X="5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TestClients\EmulatorClient.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Microsoft.Bot.Builder.TestRunner.TestClients.TeamsClient" Collapsed="true">
-    <Position X="8.75" Y="6" Width="1.5" />
+    <Position X="7.25" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TestClients\TeamsClient.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Microsoft.Bot.Builder.TestRunner.TestClientBase" Collapsed="true">
-    <Position X="7" Y="4.5" Width="1.5" />
+    <Position X="5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TestClientBase.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Microsoft.Bot.Builder.TestRunner.TestClientFactory" Collapsed="true">
-    <Position X="7" Y="3.25" Width="1.5" />
+  <Class Name="Microsoft.Bot.Builder.TestRunner.TestClientFactory">
+    <Position X="8" Y="3.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
       <FileName>TestClientFactory.cs</FileName>
@@ -38,8 +38,8 @@
       <Property Name="TestClientBase" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="Microsoft.Bot.Builder.TestRunner.TestRunner" Collapsed="true">
-    <Position X="4.5" Y="3.25" Width="1.5" />
+  <Class Name="Microsoft.Bot.Builder.TestRunner.TestRunner">
+    <Position X="5" Y="2.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>ASAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TestRunner.cs</FileName>
@@ -49,18 +49,18 @@
       <Property Name="TranscriptConverter" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="Microsoft.Bot.Builder.TestRunner.TranscriptConverter" Collapsed="true">
-    <Position X="4.5" Y="4.5" Width="1.5" />
+  <Class Name="Microsoft.Bot.Builder.TestRunner.TranscriptConverter">
+    <Position X="1.75" Y="2" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAACAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAEAAAAAAAAAACAAAAA=</HashCode>
       <FileName>TranscriptConverter.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Enum Name="Microsoft.Bot.Builder.TestRunner.TestClient">
-    <Position X="9.25" Y="3.5" Width="1.5" />
+  <Enum Name="Microsoft.Bot.Builder.TestRunner.ClientType">
+    <Position X="10.75" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAIAA=</HashCode>
-      <FileName>TestClient.cs</FileName>
+      <FileName>ClientType.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Segoe UI" Size="9" />
