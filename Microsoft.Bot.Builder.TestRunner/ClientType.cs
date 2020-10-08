@@ -4,6 +4,8 @@
     {
         DirectLine,
         Emulator,
-        Teams
+        Teams,
+        Facebook,
+        Slack
     }
 }

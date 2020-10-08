@@ -11,8 +11,11 @@ namespace XUnitTestProject1
         public void Test1()
         {
             var runner = new TestRunner(new TestClientFactory(ClientType.DirectLine).GetTestClient());
+
+            //execute a single transcript
             runner.RunTest(@"EmulatorTranscript1.transcript");
 
+            //execute a list
             runner.RunTest(new List<string>()
             {
                 @"EmulatorTranscript1.transcript",
