@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Bot.Builder.TestRunner</name>
+    </assembly>
+    <members>
+        <member name="M:Microsoft.Bot.Builder.TestRunner.TestRunner.RunTestAsync(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Executes a test based on a collection of transcripts in sequence,
+            in the order in which  they exist in the collection. This method
+            can be used  to compose a complex scenario formed by a set of smaller
+            scenarios defined in each transcript.
+            </summary>
+            <param name="transcripts">The collection of transcripts to execute.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Builder.TestRunner.TestRunner.RunTestAsync(System.String)">
+            <summary>
+            Executes a single scenario based on the transcript passed to the method.
+            </summary>
+            <param name="transcript">The transcript that contains the scenario to execute.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Bot.Builder.TestRunner.TestRunner.RunTestAsync(System.String,System.String[])">
+            <summary>
+            Executes a scenario utilizing a parameterized transcript.
+            </summary>
+            <param name="transcript">A parameterized transcript.</param>
+            <param name="values">The parameters to passed to the transcript.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Bot.Builder.TestRunner.TestRunner.GetActivitiesAsync">
+            <summary>
+            Gets a collection of activities returned by the test bot.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Bot.Builder.TestRunner.TestRunner.SendActivityAsync(Microsoft.Bot.Schema.Activity)">
+            <summary>
+            Sends a single Activity to the test bot.
+            </summary>
+            <param name="activity">The Activity to send to the bot.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Microsoft.Bot.Builder.TestRunner.TranscriptConverter">
+             <summary>
+            remove:
+             id
+             timestamps
+             
+             </summary>
+        </member>
+    </members>
+</doc>

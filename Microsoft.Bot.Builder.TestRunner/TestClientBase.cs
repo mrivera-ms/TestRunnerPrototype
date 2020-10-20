@@ -1,4 +1,6 @@
-﻿namespace Microsoft.Bot.Builder.TestRunner
+﻿using Microsoft.Bot.Schema;
+
+namespace Microsoft.Bot.Builder.TestRunner
 {
     public abstract class TestClientBase
     {
